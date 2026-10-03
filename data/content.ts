@@ -5,7 +5,7 @@ export const profile = {
   roles: ['AI/ML Engineer', 'RAG Builder', 'Program Manager', 'Film Story Writer'],
   tagline: 'Engineer by training. Product mind by practice. Building AI that actually ships.', // EDIT
   about:
-    'I started in biochemical engineering at IIT Delhi and learned to think in systems. Then I moved into program management and shipped a real RAG agent into production. Now I am going deep on AI/ML engineering. I play volleyballs and deploy models; both need good timing.', // EDIT
+    'I started in biochemical engineering at IIT Delhi and learned to think in systems. Then I moved into program management and shipped a real RAG agent into production. Now I am going deep on AI/ML engineering. I play volleyball and deploy models; both need good timing.', // EDIT
   email: 'vishwavardhan33@gmail.com', // EDIT: add email
   github: 'https://github.com/vishwavardhan33-arch',
   linkedin: 'https://www.linkedin.com/in/vishwa-vardhan-doni-592bb638a/',
