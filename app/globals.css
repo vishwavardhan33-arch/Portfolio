@@ -1,0 +1,9 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { background: #05070f; color: #e8ecf5; }
+.glass { background: rgba(14,20,40,.55); backdrop-filter: blur(14px); border: 1px solid rgba(34,211,238,.18); box-shadow: 0 0 40px rgba(34,211,238,.06); border-radius: 1rem; }
+.grain::after { content: ''; position: fixed; inset: 0; pointer-events: none; opacity: .05; z-index: 50;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence baseFrequency='.9'/></filter><rect width='120' height='120' filter='url(%23n)'/></svg>"); }
+:focus-visible { outline: 2px solid #22d3ee; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
