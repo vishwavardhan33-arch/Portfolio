@@ -10,7 +10,7 @@ export const profile = {
   github: 'https://github.com/vishwavardhan33-arch',
   linkedin: 'https://www.linkedin.com/in/vishwa-vardhan-doni-592bb638a/',
   resume: '/resume.pdf', // EDIT: put PDF in /public
-  photo: '/images/vishwa.jpg', // EDIT: add photo
+  photo: '/images/WhatsApp Image 2026-10-03 at 15.30.26.jpeg', // EDIT: add photo
   logline: 'You are not your job title.\
 You are not your CGPA, or your LinkedIn headline, or the sprint velocity on a slide nobody reads.\
 You are the weights you update after every failure.\
